@@ -320,7 +320,7 @@
         {
             "tag": "do",
             "patterns": ["what can you do for me","what is your work","what is your purpose","how can you help me","what can you help me do"],
-            "responses": ["my work here is quite simple and structered. I offer services like: 1. Take Note"],
+            "responses": ["my work here is quite simple and structered. I offer services like: "],
             "context": [""]
         },
         {
@@ -340,6 +340,20 @@
             "patterns": ["Find a song","can you find a song", "i want to listen to a song", "a song would be nice", "need a song"],
             "responses": ["What song You want to hear"],
             "context": [""]
+        },
+        {
+            "tag": "feel",
+            "patterns": ["How are you?","how are you doing", "how are things", "what are you feeling?"],
+            "responses": ["I am doing great, thanks for asking"],
+            "context": [""]
+        },
+        {
+            "tag": "curse",
+            "patterns": ["fuck you","what the fuck", "wtf", "fuck", "cunt", "You little cunt", "Wanna have sex", "fuck your mom", "fuck you bitch", "bitch"],
+            "responses": ["Hey, Watch your mouth, You need a time out"],
+            "context": [""]
         }
+
+
     ]
 }
